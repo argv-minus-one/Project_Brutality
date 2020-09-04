@@ -45,7 +45,7 @@ ACTOR Carbine : PB_Weapon
 	Weapon.BobStyle InverseSmooth
 	Weapon.BobSpeed 2.4
 	Weapon.AmmoUse1 0
-	Weapon.AmmoGive1 20
+	Weapon.AmmoGive1 10
 	Weapon.AmmoUse2 0
 	Weapon.AmmoGive2 0
 	Weapon.AmmoType1 "NewClip"

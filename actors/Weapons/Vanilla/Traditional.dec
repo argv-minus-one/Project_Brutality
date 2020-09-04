@@ -120,7 +120,7 @@ ACTOR Traditional_Pistol : Weapon
 	Weapon.BobStyle InverseSmooth
 	Weapon.BobSpeed 2.4
 	Weapon.AmmoUse 1
-	Weapon.AmmoGive 20
+	Weapon.AmmoGive 5
 	Weapon.AmmoType "NewClip"
 	//Weapon.SelectionOrder 1900
 	Obituary "$OB_MPPISTOL"
@@ -182,7 +182,7 @@ ACTOR Traditional_Shotgun : Shotgun //replaces Shotgun
 	Weapon.BobStyle InverseSmooth
 	Weapon.BobSpeed 2.4
 	Weapon.AmmoUse 1
-	Weapon.AmmoGive 8
+	Weapon.AmmoGive 2
 	Weapon.AmmoType "NewShell"
 	//Weapon.SelectionOrder 1300
 	Inventory.PickupMessage "$GOTSHOTGUN"
@@ -253,7 +253,7 @@ ACTOR Traditional_SSG : DoomWeapon //replaces SuperShotgun
 	Weapon.BobStyle InverseSmooth
 	Weapon.BobSpeed 2.4
 	Weapon.AmmoUse 2
-	Weapon.AmmoGive 8
+	Weapon.AmmoGive 2
 	Weapon.AmmoType "NewShell"
 	//Weapon.SelectionOrder 400
 	Inventory.PickupMessage "$GOTSHOTGUN2"
@@ -329,7 +329,7 @@ ACTOR Traditional_ChainGun : Chaingun
 	Weapon.BobStyle InverseSmooth
 	Weapon.BobSpeed 2.4
 	Weapon.AmmoUse 1
-	Weapon.AmmoGive 40
+	Weapon.AmmoGive 10
 	Weapon.AmmoType "NewClip"
     +WEAPON.NOAUTOAIM
 	//Weapon.SelectionOrder 700
@@ -491,7 +491,7 @@ ACTOR Traditional_PlasmaRifle : DoomWeapon
 	Weapon.BobStyle InverseSmooth
 	Weapon.BobSpeed 2.4
 	Weapon.AmmoUse 1
-	Weapon.AmmoGive 40
+	Weapon.AmmoGive 10
 	Weapon.AmmoType "Cell"
     +WEAPON.NOAUTOAIM
 	//Weapon.SelectionOrder 100
@@ -557,7 +557,7 @@ ACTOR Traditional_BFG : DoomWeapon
 	Weapon.BobStyle InverseSmooth
 	Weapon.BobSpeed 2.4
 	Weapon.AmmoUse 40
-	Weapon.AmmoGive 40
+	Weapon.AmmoGive 20
 	Weapon.AmmoType "Cell"
     +WEAPON.NOAUTOAIM
 	//Weapon.SelectionOrder 2800

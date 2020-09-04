@@ -52,7 +52,7 @@ ACTOR ClassicPistol : DoomWeapon
 	Game Doom
 	Weapon.SelectionOrder 14
 	Weapon.AmmoUse 1
-	Weapon.AmmoGive 20
+	Weapon.AmmoGive 10
 	Weapon.AmmoType "Clip"
 	Obituary "$OB_MPPISTOL"
 	+WEAPON.CHEATNOTWEAPON
@@ -104,7 +104,7 @@ ACTOR ClassicShotgun : DoomWeapon
 	Game Doom
 	Weapon.SelectionOrder 13
 	Weapon.AmmoUse 1
-	Weapon.AmmoGive 8
+	Weapon.AmmoGive 2
 	Weapon.AmmoType "Shell"
 	+WEAPON.CHEATNOTWEAPON
 	+WEAPON.NOAUTOAIM
@@ -158,7 +158,7 @@ ACTOR ClassicSSG : DoomWeapon
 	Game Doom
 	Weapon.SelectionOrder 4
 	Weapon.AmmoUse 2
-	Weapon.AmmoGive 8
+	Weapon.AmmoGive 2
 	Weapon.AmmoType "Shell"
 	Inventory.PickupMessage "$GOTSHOTGUN2"
 	Obituary "$OB_MPSSHOTGUN"
@@ -319,7 +319,7 @@ ACTOR ClassicPlasmaRifle : DoomWeapon
 	Game Doom
 	Weapon.SelectionOrder 1
 	Weapon.AmmoUse 1
-	Weapon.AmmoGive 40
+	Weapon.AmmoGive 10
 	Weapon.AmmoType "Cell"
 	+WEAPON.CHEATNOTWEAPON
 	+WEAPON.NOAUTOAIM

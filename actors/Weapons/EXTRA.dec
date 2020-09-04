@@ -696,7 +696,7 @@ ACTOR FlameCannon : PB_Weapon
 	Height 20
 	Weapon.SelectionOrder 5550
 	Weapon.AmmoUse 0
-	Weapon.AmmoGive 50
+	Weapon.AmmoGive 40
 	Weapon.AmmoType "Gas"
     Inventory.PickupSound "FLMDRAW"
      +WEAPON.NOAUTOAIM
@@ -1066,10 +1066,10 @@ States
 
 ACTOR Gas : Ammo
 {
-   Inventory.Amount 500
-   Inventory.MaxAmount 999
-   Ammo.BackpackAmount 500
-   Ammo.BackpackMaxAmount 999
+   Inventory.Amount 25
+   Inventory.MaxAmount 1000
+   Ammo.BackpackAmount 25
+   Ammo.BackpackMaxAmount 1000
    Inventory.Icon "GSLNA0"
    Inventory.PickupMessage "You got Gasoline."
    States
@@ -1140,7 +1140,7 @@ Weapon.BobRangeX 0.3
 	//Weapon.SelectionOrder 2800
 	Weapon.AmmoUse1 1
 	Weapon.AmmoUse2 1
-	Weapon.AmmoGive 8
+	Weapon.AmmoGive 4
 	Weapon.AmmoType1 "MiniHellRocketAmmo"
 	Weapon.AmmoType2 "MiniHellRocketAmmo"
     Inventory.PickupSound "revup"

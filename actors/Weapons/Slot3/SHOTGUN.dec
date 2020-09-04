@@ -232,7 +232,7 @@ ACTOR Shot_Gun : PB_Weapon Replaces Shotgun
 	Weapon.SelectionOrder 1300
 	Weapon.AmmoUse1 0
 	Weapon.AmmoUse2 0
-	Weapon.AmmoGive1 4
+	Weapon.AmmoGive1 2
 	Weapon.AmmoGive2 0
 	Weapon.AmmoType1 "NewShell"
 	Weapon.AmmoType2 "ShotgunAmmo"

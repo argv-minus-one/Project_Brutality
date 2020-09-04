@@ -86,9 +86,9 @@ ACTOR SmartBulletKit : SwitchableDecoration
 ACTOR BulletCartridge : PistolBullets
 {
 	Game Doom
-	Inventory.Amount 15
+	Inventory.Amount 8
 	Inventory.MaxAmount 200
-	Ammo.BackpackAmount 55
+	Ammo.BackpackAmount 8
 	Ammo.BackpackMaxAmount 400
 	Inventory.PickupMessage "Picked up a Low Caliber Magazine."
 	Inventory.PickupSound "misc/clip_PickUp"
@@ -106,9 +106,9 @@ ACTOR NormalBulletKit : PistolBullets
 	Scale 1.15
 	Inventory.PickupMessage "Picked up a Box of Low Caliber rounds."
 	Inventory.PickupSound "CBOXPKUP"
-	Inventory.Amount 30
+	Inventory.Amount 24
 	Inventory.MaxAmount 200
-	Ammo.BackpackAmount 30
+	Ammo.BackpackAmount 8
 	Ammo.BackpackMaxAmount 400
 	+DONTGIB
 	+FLOORCLIP

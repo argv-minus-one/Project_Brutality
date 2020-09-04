@@ -36,7 +36,7 @@ ACTOR BIG_FUCKING_GUN_MKIV: PB_Weapon Replaces BFG9000
 	SpawnID 9800
 	Weapon.SelectionOrder 2800
 	Weapon.AmmoUse 0
-	Weapon.AmmoGive 50
+	Weapon.AmmoGive 20
 	Weapon.AmmoType "Cell"
     Inventory.PickupSound "BFGPICK"
 	DamageType Desintegrate

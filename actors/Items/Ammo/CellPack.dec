@@ -47,14 +47,14 @@ ACTOR SmartCellPack : SwitchableDecoration
 		TNT1 A 0 A_JumpIfInTargetInventory("GotAPack",1,"CheckSkill_Pack")
 		Goto CheckSkill_NoPack
 	CheckSkill_Pack:
-		TNT1 A 0 A_JumpIfInTargetInventory("Cell",520,"SpawnCells")
+		TNT1 A 0 A_JumpIfInTargetInventory("Cell",550,"SpawnCells")
 		Goto SpawnBox
 	CheckSkill_NoPack:
 		TNT1 A 0 A_JumpIfInTargetInventory("Cell",301,"CheckSkill_Pack") 
-		TNT1 A 0 A_JumpIfInTargetInventory("Cell",220,"SpawnCells")
+		TNT1 A 0 A_JumpIfInTargetInventory("Cell",250,"SpawnCells")
 		Goto SpawnBox
 	CheckSkill_Pack_h:
-		TNT1 A 0 A_JumpIfInTargetInventory("Cell",720,"SpawnCells")
+		TNT1 A 0 A_JumpIfInTargetInventory("Cell",750,"SpawnCells")
 		Goto SpawnBox
 	SpawnBox:
 		TNT1 A 0 A_SpawnItemEx("NormalCellPack")
@@ -85,6 +85,8 @@ ACTOR SmartCellPack : SwitchableDecoration
 ACTOR NewCell : Cell Replaces Cell
 {
 	Inventory.PickUpSound "misc/cell_PickUp"
+	Inventory.Amount 10
+	Ammo.BackpackAmount 10
 	+FLOORCLIP
 	+DONTGIB
 	States
@@ -99,6 +101,7 @@ ACTOR NormalCellPack : CellPack
 {
 	Inventory.PickupMessage "Picked up an Energy Cell Pack."
 	Inventory.PickupSound "misc/bulkcell_PickUp"
+	Inventory.Amount 50
 	+DONTGIB
 	+FLOORCLIP
 	States

@@ -49,15 +49,15 @@ ACTOR SmartShellBoxBig : SwitchableDecoration
 		Goto CheckSkill_NoPack
 	CheckSkill_Pack:
 		TNT1 A 0 A_JumpIfInTargetInventory("NewShell",100,"FullFail")
-		TNT1 A 0 A_JumpIfInTargetInventory("NewShell",73,"SpawnShells")
+		TNT1 A 0 A_JumpIfInTargetInventory("NewShell",85,"SpawnShells")
 		Goto SpawnBox
 	CheckSkill_NoPack:
 		TNT1 A 0 A_JumpIfInTargetInventory("NewShell",51,"CheckSkill_Pack")
-		TNT1 A 0 A_JumpIfInTargetInventory("NewShell",23,"SpawnShells")
+		TNT1 A 0 A_JumpIfInTargetInventory("NewShell",35,"SpawnShells")
 		Goto SpawnBox
 	CheckSkill_Pack_h:
 		TNT1 A 0 A_JumpIfInTargetInventory("NewShell",150,"FullFail")
-		TNT1 A 0 A_JumpIfInTargetInventory("NewShell",123,"SpawnShells")
+		TNT1 A 0 A_JumpIfInTargetInventory("NewShell",135,"SpawnShells")
 		Goto SpawnBox
 	SpawnBox:
 		TNT1 A 0 A_SpawnItemEx("NormalShellBoxBig")
@@ -95,9 +95,9 @@ ACTOR NewShell : Ammo Replaces Shell
 	Inventory.PickupMessage "Picked up some Shotgun Shells."
 	+FLOORCLIP
 	+DONTGIB
-	Inventory.Amount 4
+	Inventory.Amount 3
 	Inventory.MaxAmount 50
-	Ammo.BackpackAmount 4
+	Ammo.BackpackAmount 3
 	Ammo.BackpackMaxAmount 100
 	States
 	{
@@ -112,7 +112,7 @@ ACTOR NormalShellBoxBig : NewShell
 	Scale .8
 	Inventory.PickupMessage "Picked up a Large Case of Shells."
 	Inventory.PickupSound "misc/shellbox_PickUp"
-	Inventory.Amount 32
+	Inventory.Amount 16
 	+DONTGIB
 	+FLOORCLIP
 	States

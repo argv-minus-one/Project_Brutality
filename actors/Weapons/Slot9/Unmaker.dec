@@ -35,7 +35,6 @@ ACTOR UnmakerSpawner: CustomInventory 8845
 	Pickup:
 	    TNT1 A 0
 		TNT1 A 0 A_GiveInventory("Unmaker", 1)
-		TNT1 A 0 A_GiveInventory("Demonpower", 100)
 		Stop
     }
 }

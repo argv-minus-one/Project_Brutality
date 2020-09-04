@@ -48,15 +48,15 @@ ACTOR SmartRocketBox : SwitchableDecoration
 		Goto CheckSkill_NoPack
 	CheckSkill_Pack:
 		TNT1 A 0 A_JumpIfInTargetInventory("RocketAmmo",100,"FullFail")
-		TNT1 A 0 A_JumpIfInTargetInventory("RocketAmmo",95,"SpawnRockets")
+		TNT1 A 0 A_JumpIfInTargetInventory("RocketAmmo",98,"SpawnRockets")
 		Goto SpawnBox
 	CheckSkill_NoPack:
 		TNT1 A 0 A_JumpIfInTargetInventory("RocketAmmo",50,"CheckSkill_Pack")
-		TNT1 A 0 A_JumpIfInTargetInventory("RocketAmmo",45,"SpawnRockets")
+		TNT1 A 0 A_JumpIfInTargetInventory("RocketAmmo",48,"SpawnRockets")
 		Goto SpawnBox
 	CheckSkill_Pack_h:
 		TNT1 A 0 A_JumpIfInTargetInventory("RocketAmmo",125,"FullFail")
-		TNT1 A 0 A_JumpIfInTargetInventory("RocketAmmo",120,"SpawnRockets")
+		TNT1 A 0 A_JumpIfInTargetInventory("RocketAmmo",123,"SpawnRockets")
 		Goto SpawnBox
 	SpawnBox:
 		TNT1 A 0 A_SpawnItemEx("NormalRocketBox_SS")
@@ -97,7 +97,7 @@ ACTOR NormalRocketBox_SS : CustomInventory
 {
 	Inventory.PickupMessage "Picked up a Box of Explosive Ordinance."
 	Inventory.PickupSound "misc/rockboxa"
-	Inventory.Amount 5
+	Inventory.Amount 3
 	+DONTGIB
 	+FLOORCLIP
 	States
@@ -106,7 +106,7 @@ ACTOR NormalRocketBox_SS : CustomInventory
 		BR0K A -1
 		Stop
 	Pickup:
-		TNT1 A 0 A_GiveInventory("NewRocketAmmo",5) 		
+		TNT1 A 0 A_GiveInventory("NewRocketAmmo",3) 		
 		TNT1 A 20
 		Stop
 	}
@@ -116,7 +116,7 @@ ACTOR NormalRocketBox : CustomInventory
 {
 	Inventory.PickupMessage "Picked up a Box of Explosive Ordinance."
 	Inventory.PickupSound "misc/rockboxa"
-	Inventory.Amount 5
+	Inventory.Amount 3
 	+DONTGIB
 	+FLOORCLIP
 	States
@@ -125,7 +125,7 @@ ACTOR NormalRocketBox : CustomInventory
 		BROK A -1
 		Stop
 	Pickup:
-		TNT1 A 0 A_GiveInventory("NewRocketAmmo",5) 		
+		TNT1 A 0 A_GiveInventory("NewRocketAmmo",3) 		
 		TNT1 A 20
 		Stop
 	}
