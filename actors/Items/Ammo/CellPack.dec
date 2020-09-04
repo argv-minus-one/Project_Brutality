@@ -47,14 +47,14 @@ ACTOR SmartCellPack : SwitchableDecoration
 		TNT1 A 0 A_JumpIfInTargetInventory("GotAPack",1,"CheckSkill_Pack")
 		Goto CheckSkill_NoPack
 	CheckSkill_Pack:
-		TNT1 A 0 A_JumpIfInTargetInventory("Cell",550,"SpawnCells")
+		TNT1 A 0 A_JumpIfInTargetInventory("Cell",560,"SpawnCells")
 		Goto SpawnBox
 	CheckSkill_NoPack:
 		TNT1 A 0 A_JumpIfInTargetInventory("Cell",301,"CheckSkill_Pack") 
-		TNT1 A 0 A_JumpIfInTargetInventory("Cell",250,"SpawnCells")
+		TNT1 A 0 A_JumpIfInTargetInventory("Cell",260,"SpawnCells")
 		Goto SpawnBox
 	CheckSkill_Pack_h:
-		TNT1 A 0 A_JumpIfInTargetInventory("Cell",750,"SpawnCells")
+		TNT1 A 0 A_JumpIfInTargetInventory("Cell",760,"SpawnCells")
 		Goto SpawnBox
 	SpawnBox:
 		TNT1 A 0 A_SpawnItemEx("NormalCellPack")
