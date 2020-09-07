@@ -14,7 +14,6 @@ Actor QuadShotgunZombie: ShotgunGuy1 Replaces ShotgunGuy
   ActiveSound "grunt/active"
   Obituary "%o was splattered by a Quad-Shotgun Zombie"
   DamageFactor "Blood", 0.0 DamageFactor "BlueBlood", 0.0 DamageFactor "GreenBlood", 0.0
-  DropItem "NewShell"
   DropItem "DropedSSG"
   DropItem "DropedGrenade" 5
   States
