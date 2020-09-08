@@ -1299,8 +1299,11 @@ script "CombatBackPack" (void)
 	SetAmmoCapacity("Cell", 800);
 	SetAmmoCapacity("Demonpower", 800);
 	delay(2);
+	/*
 	GiveInventory("Medikit",2);
+	*/
 	GiveInventory("Backpack",1);
+	/*
 	GiveInventory("BulletKit", 4);
 	GiveInventory("NewClip", 200);
 	GiveInventory("NewShell",50); 
@@ -1309,6 +1312,7 @@ script "CombatBackPack" (void)
 	GiveInventory("SpecialGrenadeRounds", 18);
 	GiveInventory("CellPack",2);
 	GiveInventory("HandGrenadeAmmo", 8);
+	*/
 	
 }
 
