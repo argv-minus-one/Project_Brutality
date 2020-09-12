@@ -56,7 +56,7 @@ Weapon.BobSpeed 2.4
 //Weapon.SelectionOrder 2800
 Weapon.AmmoType1 "NewClip"
 Weapon.AmmoType2 "HMGAmmo"
-Weapon.AmmoGive 15
+Weapon.AmmoGive 10
 Weapon.AmmoUse1 0
 Weapon.AmmoUse2 0
 	+FLOORCLIP

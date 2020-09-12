@@ -98,7 +98,7 @@ ACTOR Mini_Gun : PB_Weapon Replaces Chaingun
 	+DONTGIB
 	//Weapon.SelectionOrder 700
 	Weapon.AmmoType "NewClip"
-	Weapon.AmmoGive 15
+	Weapon.AmmoGive 10
 	Weapon.AmmoUse 1
     +WEAPON.NOAUTOAIM
 	Inventory.PickupSound "CBOXPKUP"
