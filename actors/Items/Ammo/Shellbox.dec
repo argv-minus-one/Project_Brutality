@@ -66,12 +66,14 @@ ACTOR SmartShellBox : SwitchableDecoration
 	SpawnShells:
 		TNT1 A 0 A_ChangeFlag("USESPECIAL", 0)
 		SB0X B 15 A_PlaySound("Ammocase/Open")
-		SB0X B 6 A_SpawnItemEx("2Shells",0,0,0,frandom(2,4),0,frandom(2,4),random(1,360))
-		SB0X C 6 A_SpawnItemEx("2Shells2",0,0,0,frandom(2,4),0,frandom(2,4),random(1,360))
-		SB0X D 6 A_SpawnItemEx("2Shells3",0,0,0,frandom(2,4),0,frandom(2,4),random(1,360))
-		SB0X E 6 A_SpawnItemEx("2Shells4",0,0,0,frandom(2,4),0,frandom(2,4),random(1,360))
-		SB0X F 6 A_SpawnItemEx("2Shells5",0,0,0,frandom(2,4),0,frandom(2,4),random(1,360))
-		SB0X G 6 A_SpawnItemEx("2Shells6",0,0,0,frandom(2,4),0,frandom(2,4),random(1,360))
+		SB0X B 6 A_SpawnItemEx("LiveShellAny",0,0,0,frandom(2,4),0,frandom(2,4),random(1,360))
+		SB0X C 6 A_SpawnItemEx("LiveShellAny",0,0,0,frandom(2,4),0,frandom(2,4),random(1,360))
+		SB0X D 0 A_SpawnItemEx("LiveShellAny",0,0,0,frandom(2,4),0,frandom(2,4),random(1,360))
+		SB0X D 6 A_SpawnItemEx("LiveShellAny",0,0,0,frandom(2,4),0,frandom(2,4),random(1,360))
+		SB0X E 6 A_SpawnItemEx("LiveShellAny",0,0,0,frandom(2,4),0,frandom(2,4),random(1,360))
+		SB0X F 0 A_SpawnItemEx("LiveShellAny",0,0,0,frandom(2,4),0,frandom(2,4),random(1,360))
+		SB0X F 6 A_SpawnItemEx("LiveShellAny",0,0,0,frandom(2,4),0,frandom(2,4),random(1,360))
+		SB0X G 6 A_SpawnItemEx("LiveShellAny",0,0,0,frandom(2,4),0,frandom(2,4),random(1,360))
 		SB0X H 15
 		TNT1 A 0 ACS_NamedExecuteAlways("SmartScavContainerStay",0)
 		SB0X A 70
@@ -445,6 +447,17 @@ ACTOR LiveShellOrange_T : LiveShellRed_K
 	{
 	Spawn:
 		CAS6 T -1
+		Stop
+	}
+}
+ACTOR LiveShellAny : LiveShellRed_K
+{
+	States
+	{
+		TNT1 A 0 A_Jump(256, random(0, 29))
+		CAS2 KLMNOPQRST -1
+		CAS5 KLMNOPQRST -1
+		CAS6 KLMNOPQRST -1
 		Stop
 	}
 }
