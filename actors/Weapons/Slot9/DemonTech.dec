@@ -730,7 +730,7 @@ actor Demonpower : Ammo //11011
   //$Category Ammunition
   Inventory.PickupMessage "Lesser demon energy"
   Inventory.PickupSound "HellPickup"
-  Inventory.Amount 3 
+  Inventory.Amount 2 
   Inventory.MaxAmount 300
   Inventory.Icon "MSP2A0"
   Ammo.BackpackAmount 0
@@ -759,7 +759,7 @@ actor LargeDemonpower : Demonpower //11012
 {
 
   Inventory.PickupMessage "Greater demon energy"
-  Inventory.Amount 6
+  Inventory.Amount 4
   scale 1.1
   states
   {
