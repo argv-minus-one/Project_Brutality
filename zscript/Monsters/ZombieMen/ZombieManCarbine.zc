@@ -3,7 +3,7 @@ Class PB_CarbineZombieman: PB_Zombieman //Replaces ZombieMan
 	Default
 	{
 		Health 90;
-		DropItem "DropedCarbine";
+		DropItem "DropedCarbine", 128;
 		DropItem "DropedGrenade", 15;
 	}
 	States

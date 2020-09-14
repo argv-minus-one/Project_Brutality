@@ -78,7 +78,7 @@ Actor PyroSergeant: ShotgunGuy2 replaces ShotgunGuy
 {
 	SpawnID 1250
 	Scale 1.04
-	DropItem "FlameCannon"
+	DropItem "FlameCannon" 128
 	PainChance "Fire", 12
 	PainChance "Flames", 12
 	PainChance "Burn", 12

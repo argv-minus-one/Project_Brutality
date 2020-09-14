@@ -126,6 +126,9 @@ ACTOR DropedMinigun
     Spawn:
 		TNT1 AA 1
 	Death:
+		TNT1 A 0 A_Jump(128, 1)
+		Stop
+
 		TNT1 A 1 
         TNT1 A 0 A_SpawnItemEx("Mini_Gun",0,0,0,0,0,0,0,SXF_TRANSFERSPECIAL | SXF_NOCHECKPOSITION | 288)
         Stop
@@ -154,6 +157,9 @@ ACTOR DropedSSG
     Spawn:
 		TNT1 AA 1
 	Death:
+		TNT1 A 0 A_Jump(128, 1)
+		Stop
+
         TNT1 A 0 A_SpawnItemEx("SSG",0,0,0,0,0,0,0,SXF_TRANSFERSPECIAL | SXF_NOCHECKPOSITION | 288)
         Stop
 	
@@ -210,6 +216,9 @@ ACTOR DropedASG
 		Goto Death
 		
 	Death:
+		TNT1 A 0 A_Jump(128, 1)
+		Stop
+
 		TNT1 AA 1
         TNT1 A 0 A_SpawnItemEx("AutoShotgun",0,0,0,0,0,0,0,SXF_TRANSFERSPECIAL | SXF_NOCHECKPOSITION | 288)
         Stop
@@ -237,6 +246,9 @@ ACTOR DropedHMG
 		Goto Death
 		
 	Death:
+		TNT1 A 0 A_Jump(128, 1)
+		Stop
+
 		TNT1 AA 1
         TNT1 A 0 A_SpawnItemEx("HMG",0,0,0,0,0,0,0,SXF_TRANSFERSPECIAL | SXF_NOCHECKPOSITION | 288)
         Stop
@@ -264,6 +276,9 @@ ACTOR DropedSMG
 		Goto Death
 		
 	Death:
+		TNT1 A 0 A_Jump(128, 1)
+		Stop
+
 		TNT1 AA 1
         TNT1 A 0 A_SpawnItemEx("CompactSMG",0,0,0,0,0,0,0,SXF_TRANSFERSPECIAL | SXF_NOCHECKPOSITION | 288)
         Stop
@@ -293,6 +308,9 @@ ACTOR DropedRevolver
 		Goto Death
 		
 	Death:
+		TNT1 A 0 A_Jump(128, 1)
+		Stop
+
 		TNT1 AA 1
         TNT1 A 0 A_SpawnItemEx("Revolver",0,0,0,0,0,0,0,SXF_TRANSFERSPECIAL | SXF_NOCHECKPOSITION | 288)
         Stop
@@ -321,6 +339,9 @@ ACTOR DropedCarbine
 		Goto Death
 		
 	Death:
+		TNT1 A 0 A_Jump(128, 1)
+		Stop
+
 		TNT1 AA 1
         TNT1 A 0 A_SpawnItemEx("Carbine",0,0,0,0,0,0,0,SXF_TRANSFERSPECIAL | SXF_NOCHECKPOSITION | 288)
         Stop
@@ -349,6 +370,9 @@ ACTOR DropedM2Plasma
 		Goto Death
 		
 	Death:
+		TNT1 A 0 A_Jump(128, 1)
+		Stop
+
 		TNT1 AA 1
         TNT1 A 0 A_SpawnItemEx("M2PlasmaRifle",0,0,0,0,0,0,0,SXF_TRANSFERSPECIAL | SXF_NOCHECKPOSITION | 288)
         Stop
@@ -377,6 +401,9 @@ ACTOR DropedPlasma
 		Goto Death
 		
 	Death:
+		TNT1 A 0 A_Jump(128, 1)
+		Stop
+
 		TNT1 AA 1
         TNT1 A 0 A_SpawnItemEx("Plasma_Gun",0,0,0,0,0,0,0,SXF_TRANSFERSPECIAL | SXF_NOCHECKPOSITION | 288)
         Stop
@@ -405,6 +432,9 @@ ACTOR DropedPistol Replaces Pistol
 		Goto Death
 		
 	Death:
+		TNT1 A 0 A_Jump(128, 1)
+		Stop
+
 		TNT1 AA 1
         TNT1 A 0 A_SpawnItemEx("BDPistol",0,0,0,0,0,0,0,SXF_TRANSFERSPECIAL | SXF_NOCHECKPOSITION | 288)
         Stop
@@ -433,6 +463,9 @@ ACTOR DropedRifle
 		Goto Death
 		
 	Death:
+		TNT1 A 0 A_Jump(128, 1)
+		Stop
+
 		TNT1 AA 1
         TNT1 A 0 A_SpawnItemEx("Rifle",0,0,0,0,0,0,0,SXF_TRANSFERSPECIAL | SXF_NOCHECKPOSITION | 288)
         Stop
@@ -460,6 +493,9 @@ ACTOR DropedShotgun
 		Goto Death
 		
 	Death:
+		TNT1 A 0 A_Jump(128, 1)
+		Stop
+
 		TNT1 AA 1
         TNT1 A 0 A_SpawnItemEx("Shot_gun",0,0,0,0,0,0,0,SXF_TRANSFERSPECIAL | SXF_NOCHECKPOSITION | 288)
         Stop
@@ -488,6 +524,9 @@ ACTOR DropedMP40
 		Goto Death
 		
 	Death:
+		TNT1 A 0 A_Jump(128, 1)
+		Stop
+
 		TNT1 AA 1
         TNT1 A 0 A_SpawnItemEx("SecretWeapon_MP40",0,0,0,0,0,0,0,SXF_TRANSFERSPECIAL | SXF_NOCHECKPOSITION | 288)
         Stop

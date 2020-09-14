@@ -1,6 +1,6 @@
 ACTOR RocketZombie: ShotgunGuy1 Replaces ShotgunGuy
 {
-	DropItem "RocketAmmo"
+	DropItem "RocketAmmo" 128
 	SpawnID 1260
 	+NOTARGET
 	Painchance "Avoid", 0
