@@ -35,8 +35,8 @@ ACTOR ICEVILE Replaces Archvile
 	DropItem "RageSphere" 7
 	DropItem "DoubleSphere" 7
 	DropItem "TimeSphere" 7
-	DropItem "Demonpickup2" 255
-	DropItem "Demonpickup2" 255
+	DropItem "Demonpickup2" 153
+	DropItem "Demonpickup2" 153
 	DamageFactor "Saw", 0.8
 	SeeSound "icevile/see"
 	PainSound "icevile/pain"

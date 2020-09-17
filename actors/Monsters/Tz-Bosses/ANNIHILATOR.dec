@@ -49,13 +49,13 @@ ACTOR Annihilator: Cyberdemon Replaces Cyberdemon
     BloodType "Brutal_Blood"
 DamageFactor "Blood", 0.0 DamageFactor "BlueBlood", 0.0 DamageFactor "GreenBlood", 0.0
 	
-	DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
+	DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
 
 
 	Species "CyberDemon"

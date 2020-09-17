@@ -24,8 +24,8 @@ DropItem "DemonMorphRune" 10
 	DropItem "DoubleSphere" 7
 	DropItem "ShieldSphere" 6
 	DropItem "TimeSphere" 20
-	DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
+	DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
 	PainChance "Stun", 255
 	PainChance "Siphon", 255
 missiletype WizardBall

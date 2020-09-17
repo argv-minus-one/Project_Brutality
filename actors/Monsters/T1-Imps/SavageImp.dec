@@ -57,7 +57,7 @@ ACTOR SavageImp: DoomImp Replaces DoomImp
 	+SLIDESONWALLS
 	PainChance "Trample", 255
 	
-	DropItem "Demonpickup" 60
+	DropItem "Demonpickup" 36
 	
 	States
 	{

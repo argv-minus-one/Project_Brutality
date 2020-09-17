@@ -41,9 +41,9 @@ Actor Daedabus replaces Fatso
    +DONTHURTSPECIES
    Obituary "%o was acidified by a Daedabus."
    
-    DropItem "Demonpickup2" 80
-	DropItem "Demonpickup2" 30
-	DropItem "Demonpickup2" 250
+    DropItem "Demonpickup2" 48
+	DropItem "Demonpickup2" 18
+	DropItem "Demonpickup2" 150
    
    States
    {

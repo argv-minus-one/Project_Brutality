@@ -36,8 +36,8 @@ ACTOR Arachnotron1: Arachnotron replaces Arachnotron
 	//+DONTHURTSPECIES
     Scale 1.3
 	
-	DropItem "Demonpickup2" 255
-	DropItem "Demonpickup" 55
+	DropItem "Demonpickup2" 153
+	DropItem "Demonpickup" 33
 	
 	States
 	{

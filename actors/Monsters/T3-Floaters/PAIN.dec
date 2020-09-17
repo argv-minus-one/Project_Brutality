@@ -33,7 +33,7 @@ ACTOR PainElemental1 Replaces PainElemental
 	damagefactor "Blood", 0.0 damagefactor "BlueBlood", 0.0 damagefactor "GreenBlood", 0.0
     damagetype Flames
 	
-	DropItem "Demonpickup" 128
+	DropItem "Demonpickup" 77
 	
 	Species "FlyingBalls"
     +DONTHARMSPECIES

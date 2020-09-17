@@ -6,8 +6,8 @@ ACTOR Draugr : Revenant1 Replaces Revenant
   Obituary "%o was eviscerated by a Draugr"
  // +DONTHARMSPECIES
   +MISSILEEVENMORE
-  DropItem "Demonpickup2" 80
-  DropItem "Demonpickup" 255
+  DropItem "Demonpickup2" 48
+  DropItem "Demonpickup" 153
   DropItem "DemonMorphRune" 1
 	damagefactor "SSG", 2.0
   Scale 1.02

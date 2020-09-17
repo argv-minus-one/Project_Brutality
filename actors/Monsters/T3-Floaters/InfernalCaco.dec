@@ -40,8 +40,8 @@ ACTOR MagCaco : PainElemental replaces Cacodemon
 	DamageFactor "Blood", 0.0 DamageFactor "BlueBlood", 0.0 DamageFactor "GreenBlood", 0.0
 	damagefactor "killme", 0.0
 	
-	DropItem "Demonpickup2" 65
-	DropItem "Demonpickup" 255
+	DropItem "Demonpickup2" 39
+	DropItem "Demonpickup" 153
 	
 	Species "FlyingBalls"
 	+DONTHURTSPECIES

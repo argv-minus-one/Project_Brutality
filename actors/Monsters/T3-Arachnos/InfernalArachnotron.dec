@@ -19,9 +19,9 @@ ACTOR ArachnotronX: Arachnotron replaces Arachnotron
 	DropItem "DoubleSphere" 7
 	DropItem "ShieldSphere" 2
 	DropItem "TimeSphere" 3
-	DropItem "Demonpickup2" 255
-	DropItem "Demonpickup" 55
-	DropItem "Demonpickup" 55
+	DropItem "Demonpickup2" 153
+	DropItem "Demonpickup" 33
+	DropItem "Demonpickup" 33
 	PainChance "Stun", 255
 	PainChance "Siphon", 255
 	States

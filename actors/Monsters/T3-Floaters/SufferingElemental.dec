@@ -31,7 +31,7 @@ ACTOR SufferingElemental replaces PainElemental
     damagetype Flames
    Obituary "%o was killed by a Suffering Elemental."
     BloodType "Green_Blood", "GreenSawBlood", "GreenSawBlood"
-   DropItem "Demonpickup" 168
+   DropItem "Demonpickup" 101
    
    Species "FlyingBalls"
     +DONTHARMSPECIES

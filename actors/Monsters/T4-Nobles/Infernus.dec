@@ -13,9 +13,9 @@ Actor Infernus : BaronofHell2 replaces BaronOfHell
   Obituary "%o was slaughtered by an Infernus"
   HitObituary "%o was cremated by an Infernus"
 	DropItem "DemonMorphRune" 5
-	DropItem "Demonpickup2" 76
-	DropItem "Demonpickup2" 76
-	DropItem "Demonpickup2" 76
+	DropItem "Demonpickup2" 46
+	DropItem "Demonpickup2" 46
+	DropItem "Demonpickup2" 46
   Scale 1.08
   
   States

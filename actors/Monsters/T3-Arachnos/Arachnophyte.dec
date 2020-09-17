@@ -39,9 +39,9 @@ actor Arachnophyte replaces Arachnotron
     Explosiondamage 128
     Explosionradius 255
 	DropItem "DemonStrengthRune" 1
-	DropItem "Demonpickup2" 255
-	DropItem "Demonpickup" 95
-	DropItem "Demonpickup" 85
+	DropItem "Demonpickup2" 153
+	DropItem "Demonpickup" 57
+	DropItem "Demonpickup" 51
 	PainChance "Stun", 255
 	PainChance "Siphon", 255
 	

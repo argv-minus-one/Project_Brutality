@@ -5,8 +5,8 @@ ACTOR BeamRevenant : Revenant1 Replaces Revenant
   Obituary "%o was caught in a Beam Revenant's crosshairs."
  // +DONTHARMSPECIES
   +MISSILEEVENMORE
-  DropItem "Demonpickup2" 80
-  DropItem "Demonpickup" 255
+  DropItem "Demonpickup2" 48
+  DropItem "Demonpickup" 153
   DropItem "DemonMorphRune" 1
   
   	Species "Bonehead"

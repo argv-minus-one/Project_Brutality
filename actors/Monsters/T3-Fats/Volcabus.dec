@@ -7,10 +7,10 @@ Actor Volcabus : Fatso replaces Fatso
 	Mass 1000
 	Game Doom
 	SpawnID 1720
-	DropItem "Demonpickup2" 50
-	DropItem "Demonpickup2" 50
-	DropItem "Demonpickup2" 50
-	DropItem "Demonpickup2" 250
+	DropItem "Demonpickup2" 30
+	DropItem "Demonpickup2" 30
+	DropItem "Demonpickup2" 30
+	DropItem "Demonpickup2" 150
 	Speed 8
 	damagefactor "Crush", 10.0
 	damagefactor "Avoid", 0.0

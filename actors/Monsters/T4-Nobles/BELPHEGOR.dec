@@ -22,9 +22,9 @@ ACTOR LordBelphegor : BaronofHell replaces BaronofHell
     DamageFactor "Shrapnel", 0.4
 	DamageFactor "Explosive", 1.7
 	DropItem "DemonMorphRune" 5
-	DropItem "Demonpickup2" 76
-	DropItem "Demonpickup2" 76
-	DropItem "Demonpickup2" 76
+	DropItem "Demonpickup2" 46
+	DropItem "Demonpickup2" 46
+	DropItem "Demonpickup2" 46
 	Obituary "%o was no match for the great Belphegor."
 	MaxStepHeight 24
 	MaxDropOffHeight 32

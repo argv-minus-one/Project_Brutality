@@ -61,12 +61,12 @@ ACTOR Juggernaut : Fatso Replaces SpiderMastermind
 	MinMissileChance 150
 	
 	
-	DropItem "Demonpickup2" 255
-	DropItem "Demonpickup2" 255
-	DropItem "Demonpickup2" 255
-	DropItem "Demonpickup2" 255
-	DropItem "Demonpickup2" 255
-	DropItem "Demonpickup2" 255
+	DropItem "Demonpickup2" 153
+	DropItem "Demonpickup2" 153
+	DropItem "Demonpickup2" 153
+	DropItem "Demonpickup2" 153
+	DropItem "Demonpickup2" 153
+	DropItem "Demonpickup2" 153
 	DropItem "DemonMorphRune" 25
 	
 	States

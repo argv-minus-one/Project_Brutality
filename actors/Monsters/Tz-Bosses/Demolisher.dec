@@ -6,14 +6,14 @@ Obituary "The Supreme Spider Mastermind turned %o into a steaming pile of gore."
 Health 5000
 Scale 1.45
 
-DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
+DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
 	DropItem "DemonMorphRune" 25
 	Species "MasterMind"
 

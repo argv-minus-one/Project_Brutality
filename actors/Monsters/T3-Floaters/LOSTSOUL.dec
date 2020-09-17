@@ -59,7 +59,7 @@ damagefactor "Blood", 0.0 damagefactor "BlueBlood", 0.0 damagefactor "GreenBlood
 	BloodType "LostSoulBlood"
     Alpha 1
 	
-	DropItem "Demonpickup" 10
+	DropItem "Demonpickup" 6
 	
 	States
 	{

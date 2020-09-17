@@ -51,8 +51,8 @@ Actor PhasicKnightX: Hellknight Replaces HellKnight
 	DeathSound "monster/brudth"
 	MeleeSound "baron/melee"
 	+MissileEvenMore
-	DropItem "Demonpickup2" 90
-	DropItem "Demonpickup" 196
+	DropItem "Demonpickup2" 54
+	DropItem "Demonpickup" 118
   
   States 
   { 

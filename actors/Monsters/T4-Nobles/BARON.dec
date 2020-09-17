@@ -43,8 +43,8 @@ damagefactor "Blood", 0.0 damagefactor "BlueBlood", 0.0 damagefactor "GreenBlood
 	PainChance 25
 	
 	DropItem "DemonStrengthRune" 9
-	DropItem "Demonpickup2" 76
-	DropItem "Demonpickup2" 76
+	DropItem "Demonpickup2" 46
+	DropItem "Demonpickup2" 46
 	
 	States
 	{

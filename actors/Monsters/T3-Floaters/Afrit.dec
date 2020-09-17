@@ -45,8 +45,8 @@ Actor Afrit replaces Cacodemon
 	
 	damagefactor "Avoid", 0.0
 	
-	DropItem "Demonpickup2" 160
-	DropItem "Demonpickup" 255
+	DropItem "Demonpickup2" 96
+	DropItem "Demonpickup" 153
 	
 	Species "FlyingBalls"
     +DONTHARMSPECIES

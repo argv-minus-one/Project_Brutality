@@ -57,8 +57,8 @@ ACTOR TehArchvile: Archvile Replaces Archvile
 	DropItem "DoubleSphere" 5
 	DropItem "TimeSphere" 2
 	
-	DropItem "Demonpickup2" 255
-	DropItem "Demonpickup2" 25
+	DropItem "Demonpickup2" 153
+	DropItem "Demonpickup2" 15
 	
 	States
 	{

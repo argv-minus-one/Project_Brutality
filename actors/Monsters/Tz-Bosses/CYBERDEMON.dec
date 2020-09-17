@@ -50,11 +50,11 @@ ACTOR TheCyberdemon: Cyberdemon Replaces Cyberdemon
     BloodType "CyberDemon_Blood", "SawBlood", "SawBlood"
 damagefactor "Blood", 0.0 damagefactor "BlueBlood", 0.0 damagefactor "GreenBlood", 0.0
 	
-	DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
+	DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
 	
 	States
 	{

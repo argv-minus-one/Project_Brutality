@@ -35,8 +35,8 @@ Actor DemonX : Demon Replaces Demon
 	DropItem "ShieldSphere" 1
 	BloodType "Brutal_Blood", "BloodSPlatterReplacer", "Brutal_Blood"
 	DamageFactor "CauseObjectsToSplash", 0.0
-	DropItem "Demonpickup" 150
-	DropItem "Demonpickup" 50
+	DropItem "Demonpickup" 90
+	DropItem "Demonpickup" 30
 	PainChance "Stun", 255
 	PainChance "Siphon", 255
 	MaxStepHeight 32

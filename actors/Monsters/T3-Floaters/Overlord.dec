@@ -19,9 +19,9 @@ DamageFactor "Blood", 0.0 DamageFactor "BlueBlood", 0.0 DamageFactor "GreenBlood
 DamageFactor "Fatality", 1.1
 DropItem "DemonStrengthRune" 25
 	DropItem "DemonMorphRune" 25
-	DropItem "Demonpickup2" 76
-	DropItem "Demonpickup2" 76
-	DropItem "Demonpickup2" 76
+	DropItem "Demonpickup2" 46
+	DropItem "Demonpickup2" 46
+	DropItem "Demonpickup2" 46
 	DropItem "RageSphere" 22
 	DropItem "DoubleSphere" 15
 	DropItem "ShieldSphere" 13
@@ -43,8 +43,8 @@ DeathSound "monster/ovldth"
 ActiveSound "monster/ovlact"
 MeleeSound "caco/melee"
 
-DropItem "Demonpickup2" 255
-DropItem "Demonpickup2" 188
+DropItem "Demonpickup2" 153
+DropItem "Demonpickup2" 113
 
   states
   {

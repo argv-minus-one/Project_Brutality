@@ -32,7 +32,7 @@ ACTOR TriteElemental replaces PainElemental
     damagetype Flames
    Obituary "%o was nested by a Trite Elemental."
     BloodType "Green_Blood", "GreenSawBlood", "GreenSawBlood"
-   DropItem "Demonpickup" 148
+   DropItem "Demonpickup" 89
    
    Species "FlyingBalls"
     +DONTHARMSPECIES

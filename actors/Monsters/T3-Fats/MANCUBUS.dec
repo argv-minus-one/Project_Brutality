@@ -39,8 +39,8 @@ ACTOR Mancubus : Fatso Replaces Fatso
     +DONTHARMSPECIES
     +DONTHARMCLASS
 	
-	DropItem "Demonpickup2" 60
-	DropItem "Demonpickup2" 250
+	DropItem "Demonpickup2" 36
+	DropItem "Demonpickup2" 150
 	
 	States
       {

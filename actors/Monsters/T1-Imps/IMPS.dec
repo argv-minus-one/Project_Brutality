@@ -153,7 +153,7 @@ damagefactor "Blood", 0.0 damagefactor "BlueBlood", 0.0 damagefactor "GreenBlood
 	PainChance "Trample", 255
     Speed 8
 	
-	DropItem "Demonpickup" 60
+	DropItem "Demonpickup" 36
 	
 	States
 	{

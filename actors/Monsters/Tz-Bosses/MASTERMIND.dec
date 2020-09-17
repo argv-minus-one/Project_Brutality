@@ -64,12 +64,12 @@ ACTOR TheSpiderMastermind Replaces SpiderMastermind
 	MaxStepHeight 24
 	MaxDropOffHeight 32
 	
-	DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
- DropItem "Demonpickup2" 255
+	DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
+ DropItem "Demonpickup2" 153
 	DropItem "DemonMorphRune" 25
 	Species "MasterMind"
 	

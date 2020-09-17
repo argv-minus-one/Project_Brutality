@@ -61,7 +61,7 @@ damagefactor "Blood", 0.0 damagefactor "BlueBlood", 0.0 damagefactor "GreenBlood
 	MaxDropOffHeight 32
 	DropItem "DemonStrengthRune" 2
 	
-	DropItem "Demonpickup" 100
+	DropItem "Demonpickup" 60
 	States
 	{
 	

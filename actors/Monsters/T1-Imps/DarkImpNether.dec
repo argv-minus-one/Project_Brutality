@@ -56,7 +56,7 @@ actor NetherDarkImp Replaces DoomImp
     MeleeDamage 3
 	MaxStepHeight 24
 	MaxDropOffHeight 32
-	DropItem "Demonpickup" 225
+	DropItem "Demonpickup" 135
     States
     {
 	

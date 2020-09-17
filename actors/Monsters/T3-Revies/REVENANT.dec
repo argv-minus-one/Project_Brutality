@@ -52,8 +52,8 @@ damagefactor "Blood", 0.0 damagefactor "BlueBlood", 0.0 damagefactor "GreenBlood
 	
 	Species "Bonehead"
    +DONTHARMSPECIES
-	DropItem "Demonpickup2" 50
-	DropItem "Demonpickup" 255
+	DropItem "Demonpickup2" 30
+	DropItem "Demonpickup" 153
 	
 	States
 	{
