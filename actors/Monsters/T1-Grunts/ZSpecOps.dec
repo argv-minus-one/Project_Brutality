@@ -2166,7 +2166,7 @@ States{Spawn:
 
 Actor Vanilla_ZSpec : ZSpecOpsMachinegun
 {
-	DropItem "DropedVanillaSMG" 256
+	DropItem "DropedSMG" 256
 	DropItem "DropedGrenade" 5
 	States
 	{
