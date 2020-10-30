@@ -1210,7 +1210,7 @@ Actor MGNail
   Radius 3
   Height 3
   Speed 60
-  Damage 7
+  Damage 6
   Damagetype "Nailgun"
   Scale 0.5
   +BloodSplatter
@@ -1245,7 +1245,7 @@ Actor HotMGNail : MGNail
 {
   Speed 60
   Decal Scorch
-  Damage 8
+  Damage 7
   Scale 0.5
   SeeSound ""
   DeathSound "Weapons/NailHit"
