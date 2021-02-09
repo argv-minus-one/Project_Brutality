@@ -12,6 +12,10 @@ class PB_WeaponBase : DoomWeapon
 	property MidPickupMessage: MidWeaponPickupMessage;
 	string lastGrenadeType;
 	property lastGrenadeType: lastGrenadeType;
+	
+	string rocketLauncherMode;
+	property rocketLauncherMode: rocketLauncherMode;
+	
 	string upgradedRifleMode;
 	property upgradedRifleMode: upgradedRifleMode;
 	string fireMode;
@@ -122,6 +126,16 @@ class PB_WeaponBase : DoomWeapon
 		invoker.lastGrenadeType = type;
 	}
 	
+	action string PB_GetCurrentRocketMode()
+	{
+		return invoker.rocketLauncherMode;
+	}
+	
+	action void PB_SetCurrentRocketMode(string type)
+	{
+		invoker.rocketLauncherMode = type;
+	}
+	
 	action void A_DecideSpawnLaserPuff()
 	{
 			if (CountInv("LaserSightActivated")==1 && CountInv("KeepLaserDeactivated") != 1)
@@ -174,7 +188,7 @@ class PB_WeaponBase : DoomWeapon
 		};
 		static const statelabel PBWeapStatelabels[] =
 		{
-			"Steady", "LedgeClimb", "QuickPunch",
+			"Steady", "QuickPunch", //"LedgeClimb",
 			"DoKick", "Taunt", "Salute", "Salute",
 			"UseEquipment", "SwitchEquipment", "DualWieldBaby",
 			"NoDualWield", "WeaponSpecial", "GrabbedBarrel", "GrabbedBurningBarrel"
@@ -184,9 +198,17 @@ class PB_WeaponBase : DoomWeapon
 		{
 			return ResolveState("Steady");
 		}
+		/*
 		if (CountInv("Grabbing_A_Ledge")>=1) 
 		{
 			return ResolveState("LedgeClimb");
+		}
+		*/
+		if(((PressingFire() || JustPressed(BT_ATTACK)) && !A_IsFiringLeftWeapon()) || ((PressingAltfire() || JustPressed(BT_ALTATTACK)) && !A_IsFiringRightWeapon())){
+			if(CountInv("DualFireReload") >= 2){
+				A_TakeInventory("DualFireReload",2);
+				return ResolveState("Reload");
+			}
 		}
 		if (CountInv("DoPunch")>=1) 
 		{
@@ -245,6 +267,18 @@ class PB_WeaponBase : DoomWeapon
 		//A_WeaponOffset(-CallACS("Script_GetGunOffsetX"), CallACS("Script_GetGunOffsetY")-1,WOF_INTERPOLATE | (!!(pbFlags & PBWEAP_KEEPYOFFSET) ? WOF_KEEPY : 0));
 		return null;
 	}
+	
+	action void PB_HandleCrosshair(int num)
+	{
+        CVar crosshair_settings = CVar.FindCVar('pb_weapon_crosshairs');
+		
+		if(crosshair_settings.GetBool()){
+			A_SetCrosshair(num); // Set crosshair to specific weapon
+		}
+		else {
+			A_SetCrosshair(0); // Set crosshair to universal user setting
+		}
+	}
   
 	
 	action void A_SetOverlaySprite(int layer, String str)
@@ -264,5 +298,25 @@ class PB_WeaponBase : DoomWeapon
         {
                     let psp = player.GetPSprite(PSP_FLASH);
                     psp.sprite = GetSpriteIndex(str);
+        }
+
+	action void A_SetSpawnSprite(String str)
+        {
+                   sprite = GetSpriteIndex(str);
+        }
+
+		states
+		{
+			Flash:
+				TNT1 A 1;
+				stop;
+		}
+}
+
+class PB_UpgradeItem : CustomInventory
+{
+	action void A_SetSpawnSprite(String str)
+        {
+                   sprite = GetSpriteIndex(str);
         }
 }
